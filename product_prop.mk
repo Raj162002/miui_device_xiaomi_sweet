@@ -54,7 +54,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # App
 PRODUCT_PROPERTY_OVERRIDES += \
         persist.device_config.runtime_native_boot.iorap_perfetto_enable=true \
-	ro.launcher.blur.appLaunch=0
 
 # Perfetto
 PRODUCT_PROPERTY_OVERRIDES += \
