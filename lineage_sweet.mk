@@ -7,7 +7,7 @@
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common SuperiorOS stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -24,5 +24,3 @@ PRODUCT_MODEL := Redmi Note 10 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-
