@@ -17,8 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 
-# ANXCamera
-$(call inherit-product, vendor/ANXCamera/anx-vendor.mk)
+
 
 # The first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 30
